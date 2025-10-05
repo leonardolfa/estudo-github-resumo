@@ -54,3 +54,29 @@ Arquivo que define quais arquivos ou pastas devem ser ignorados pelo Git.
    ```bash
    git config --global user.name "Seu Nome"
    git config --global user.email "seu@email.com"
+3. Crie um repositório local:
+   ```bash
+   git init
+4. Ou clone um repositório:
+   ```bash
+   git clone <url-do-repositorio>
+5. Faça as alterações e resgistre com commits:
+   ```bash
+   git add .
+   git commit -m "Descrição da mudança"
+6. Envie para o GitHub:
+   ```bash
+   git push -u origin <nome-da-branch>
+
+## 📚 Comandos úteis 
+```bash
+git init                    # Inicializa um repositório Git
+git status                  # Mostra o estado atual do repositório
+git add <arquivo>           # Adiciona arquivo ao commit
+git commit -m "mensagem"    # Cria um commit
+git log                     # Exibe histórico de commits
+git branch                  # Lista branches
+git checkout -b nova-branch # Cria e muda para nova branch
+git merge <branch>          # Mescla branch ao atual
+git pull                    # Atualiza repositório local com remoto
+git push                    # Envia alterações para o remoto
